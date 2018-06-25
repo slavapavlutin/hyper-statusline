@@ -9,7 +9,7 @@ exports.decorateConfig = (config) => {
     const colorBackground = color(config.backgroundColor || '#000');
     const colors = {
         foreground: colorForeground.string(),
-        background: colorBackground.lighten(0.3).string()
+        background: colorBackground.string()
     };
 
     const configColors = Object.assign({
